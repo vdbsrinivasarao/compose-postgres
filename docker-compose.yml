@@ -6,7 +6,7 @@ services:
     image: postgres
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: changeme}
+      POSTGRES_PASSWORD: changeme
       PGDATA: /data/postgres
     volumes:
        - postgres:/data/postgres
